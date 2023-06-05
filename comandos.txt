@@ -1,0 +1,25 @@
+  172  ls
+  173  cd Documents/Personal/Engineering\ \&\ Learning/Digital\ House/B1/Introduccion\ a\ la\ informatica/Parcial01/
+  174  mkdir 20230605-EduardoLuna
+  175  cd 20230605-EduardoLuna/
+  176  git init
+  177  touch README.md
+  178  git add .
+  179  git commit -m "commit 01 EduardoLuna"
+  180  git remote add origin https://github.com/eolunas/20230605-EduardoLuna.git
+  181  git push -u origin main
+  182  touch comandos.txt main.js index.html
+  183  git add .
+  184  git commit -m "commit 02 EduardoLuna"
+  185  git push -u origin main
+  186  git branch feature
+  187  git checkout feature
+  188  mkdir Hardware Software SeguridadInformatica
+  189  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  190  git add .
+  191  git commit -m "commit 03 EduardoLuna"
+  192  git push -u origin feature
+  193  git checkout main
+  194  mv main.js resumenHardware.txt
+  195  mv index.html resumenSoftware.txt
+  196  history > comandos.txt 
